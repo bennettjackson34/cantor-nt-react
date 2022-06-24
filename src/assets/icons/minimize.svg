@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="1" viewBox="0 0 16 1">
+    <defs>
+        <style>.cls-1{fill:#f2f2f2;}</style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <rect class="cls-1" width="16" height="1" transform="translate(16 1) rotate(180)"/>
+            <polygon class="cls-1" points="16 0 0 0 0 1 16 1 16 0 16 0"/>
+        </g>
+    </g>
+</svg>

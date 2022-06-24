@@ -1,0 +1,168 @@
+@keyframes text {
+	0% {
+		color: transparent;
+		/* margin-bottom: -40px; */
+	}
+	25% {
+		letter-spacing: 20px;
+	}
+	80% {
+		letter-spacing: 8px;
+		/* margin-bottom: -40px; */
+	}
+	100% {
+		letter-spacing: 20px;
+	}
+}
+
+.main-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.content-wrapper {
+	height: 100vh;
+	display: flex;
+	/* margin-top: 25%; */
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	background-color: transparent;
+}
+
+.logo {
+	position: absolute;
+	top: 100px;
+	width: 25%;
+	height: auto;
+}
+.logo.bull {
+	right: 100px;
+	filter: var(--light-blue-filter);
+}
+
+.logo.bear {
+	left: 100px;
+	/* mix-blend-mode: multiply; */
+	filter: var(--light-red-filter);
+}
+
+.login-wrapper {
+	position: relative;
+	/* padding: 50px; */
+}
+
+#welcome-message-wrapper {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	display: flex;
+
+	align-content: center;
+	justify-items: center;
+}
+
+#welcome-message {
+	font-size: 1.2rem;
+	font-weight: 700;
+	letter-spacing: 8px;
+	margin-bottom: 20px;
+	flex: 1;
+	color: var(--offwhite);
+	z-index: 99;
+	visibility: hidden;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.animate-message {
+	animation-name: text;
+	animation-duration: 3.75s;
+	visibility: visible;
+}
+
+.invalid-input {
+	color: var(--light-red);
+	visibility: hidden;
+	display: flex;
+	justify-content: center;
+	/* transition: visibility 10s ease; */
+}
+
+#input-section-wrapper {
+	height: fit-content;
+	width: 400px;
+	padding: 20px;
+	transition: opacity 0.5s;
+}
+
+.field-icon {
+	transition: color 500ms;
+	color: var(--offwhite);
+	position: absolute;
+	right: 0;
+	bottom: 5px;
+}
+
+.fa-eye:hover {
+	transition: color 500ms;
+	color: var(--light-blue);
+}
+
+.fa-eye-slash {
+	color: var(--light-blue);
+}
+
+#button-section-wrapper {
+	display: flex;
+	padding: 0 20px;
+	position: relative;
+	transition: opacity 0.5s;
+}
+
+.button-wrapper {
+	margin-right: 20px;
+	display: flex;
+	width: 100px;
+	background-color: transparent;
+}
+
+#login {
+	height: 100%;
+	width: 100%;
+	border-radius: 4px;
+	color: white;
+	background-color: var(--light-blue);
+	border: none;
+	outline: none;
+}
+
+#signup {
+	height: 100%;
+	width: 100%;
+	border-radius: 4px;
+	border: 1px solid var(--light-blue);
+	background-color: transparent;
+	color: var(--light-blue);
+	transition: all 0.35s ease;
+}
+
+#signup:hover {
+	background-color: var(--light-blue);
+	color: white;
+}
+
+#password-recovery {
+	color: var(--offwhite);
+	font-size: 14px;
+	position: absolute;
+	bottom: 0;
+	right: 20px;
+	cursor: pointer;
+}
+
+#password-recovery:hover {
+	color: #9598a1;
+}

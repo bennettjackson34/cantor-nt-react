@@ -1,0 +1,16 @@
+:root {
+	--offwhite: #ffffffbd;
+	--main-bg-color: #09090c;
+	--gray-border: #2a2e39;
+	--white-filter: invert(100%) sepia(0%) saturate(1832%) hue-rotate(128deg) brightness(115%) contrast(100%);
+	--light-red: #ef5350;
+	--light-red-filter: invert(49%) sepia(57%) saturate(3096%) hue-rotate(330deg) brightness(98%) contrast(91%);
+	--light-blue: #2196f3;
+	--light-blue-filter: invert(48%) sepia(93%) saturate(2443%) hue-rotate(184deg) brightness(100%) contrast(91%);
+	--light-gray: #50535e;
+	--light-gray-filter: invert(32%) sepia(11%) saturate(520%) hue-rotate(190deg) brightness(89%) contrast(85%);
+	--trend-color-bullish: #2196f3;
+	--trend-color-neutral: #2a2e39;
+	--trend-color-bearish: #ef5350;
+	--menu-bar-height: 25px;
+}
